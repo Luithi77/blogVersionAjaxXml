@@ -1,0 +1,61 @@
+<!doctype html> 
+
+<html> 
+	
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulaire</title>
+		<meta name="description" content="Blog"/>   
+		<meta name="keywords" content="chien, dressage">
+		<meta name="author" content="Luigi">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="css-du-blog.css" type="text/css" />
+		<link rel="icon" type="image/jpg" href="images/flavicodressage.jpg"/>
+	</head>
+	
+	
+	<body>
+
+		<div id="chiensaccueil">  
+			<div class="deuxblocs">
+				<h2>Dresser et éduquer son chien<br/>
+				Grace aux conseils de DresseTouTou</h2>
+			</div>
+		</div>
+
+
+		<h3>Formulaire de connexion administration</h3>
+		<p>Veuillez saisir votre identifiant et mot de passe :</p>
+		
+		<div class="container">
+		  <form action="admindressetoutou.html" method="post">
+			<label for="usrname">Identifiant</label>
+			<input type="text" id="usrname" name="usrname" required></br>
+		
+			<label for="psw">Mot de passe</label>
+			<input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></br>
+			
+			<input type="submit" value="Envoyer">
+		  </form>
+		</div>
+		
+		<div id="message">
+		  <h3>Password must contain the following:</h3>
+		  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+		  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+		  <p id="number" class="invalid">A <b>number</b></p>
+		  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+		</div>
+
+		<footer>
+			<div class="blocfooter">
+				<div id="sousblocfooter">
+					<p>Copyright 2020 DressTouTou. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+        
+    </body>
+</html>
+
+

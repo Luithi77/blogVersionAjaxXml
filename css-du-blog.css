@@ -1,0 +1,342 @@
+
+body {
+	padding: 10px;
+	background-color: #f2f2f2;
+	font-family: Arial, Helvetica, sans serif;
+}
+
+
+/*CSS DE LA HOME PAGE*/
+
+h1 {
+    font-weight: bold;
+    color: #444;
+    font-size: 40px;
+    margin-bottom: 20px;
+	float:left;
+	display: inline-block;
+}
+
+h2 {
+    color: red;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: red;
+}
+
+
+.deuxblocs {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .couleur {
+    color: #444;
+}
+header nav {
+    float: right;
+	width:40%;
+	font-size:15px;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
+
+#chiensaccueil {
+    height: 350px;
+    padding-top: 10px;
+    background: #ccccff url('images/dressagetoutou.jpg') no-repeat center;
+}
+
+#chiensaccueil h2 {
+    margin: 270px 0 40px 0;
+}
+
+
+	
+/*CSS DE LA SECTION 1*/
+	
+
+#section1 {
+display: flex ;
+flex-direction: row;
+background: #ffe6b3;
+}
+#gauche {
+flex : 1;
+}
+#centre {
+flex : 1;
+}
+#droite {
+flex : 1;
+}
+
+article {
+padding: 10px;
+text-align: justify;
+}
+
+article h3 {
+	text-align: center;
+}
+
+.petitephoto {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
+
+/*CSS DE LA SECTION 2*/
+	
+#section2 {  
+	border: 2px solid blue; 
+    margin: 0 auto;
+    padding: 25px;
+	width: 50% ;
+	height: 200px ;
+    box-shadow: 10px 10px 5px gray;
+    text-align: center;
+	overflow: scroll;
+	background: #ffd480;
+} 
+
+
+				
+#telecharger {
+	font-style: bolt;
+	font-size: 20px;
+}
+
+#para3 {
+	font-style: italic;
+}
+
+#tuto {
+	font-style: bolt;
+	color: brown;
+}
+
+
+/*CSS DU ASIDE*/
+
+aside {
+	font-style: bolt;
+	font-size: 20px;
+	text-align: center;
+	background: #ccffcc;
+}
+
+h4{
+	font-style: bolt;
+	font-size: 25px;
+}
+
+aside ul{
+	font-style: bolt;
+	font-size: 20px;
+	list-style: none;
+	font-size: 15px;
+}
+	
+
+
+/*CSS DU FOOTER*/
+
+
+.blocfooter {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+#sousblocfooter {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+
+
+/*CSS DU FORMULAIRE*/
+
+#formulaire {
+text-align: center;
+padding: 0;
+margin: 0;
+
+} 
+
+form{
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	margin:20px;
+	padding:30px;
+	background-color:#e8eced;
+	height: 350px;
+}
+
+#contact {
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+div{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.champs{
+	height:20px;
+	width:350px;
+}
+
+.votre{
+	width:100px;
+	display: inline-block; 
+	font-size: 15px;
+}
+
+.bouton{
+	border-radius:5px;
+	width:90px;
+}	
+	
+	
+	/*CSS DE LA PRESENTATION*/
+
+#presentation {
+	background-color:#e8eced;
+	text-align:justify;
+}
+	
+#presentation p {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#presentation h3 {
+	font-size: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+table,th,td {
+	border : 1px solid white;
+	border-collapse: collapse;
+  }
+  th,td {
+	padding: 5px;
+  }
+
+/*RWD*/
+
+@media screen and (max-width: 768px) {
+
+#section1 {
+display: flex ;
+flex-direction: column;
+background: #ffe6b3;
+}
+}
+
+
+
+/*CONNEXION ADMIN*/
+
+ input {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+	background-color: #240eec;
+	color: white;
+  }
+  
+
+  .container {
+	background-color: #f1f1f1;
+	padding-left: 350px;
+	padding-right: 350px;
+  }
+  
+  #message {
+	display:none;
+	background: #f1f1f1;
+	color: #000;
+	position: relative;
+	padding: 20px;
+	margin-top: 10px;
+  }
+  
+  #message p {
+	padding: 10px 35px;
+	font-size: 18px;
+  }
+  
+  .valid {
+	color: green;
+  }
+  
+  .valid:before {
+	position: relative;
+	left: -35px;
+	content: "&#10004;";
+  }
+  
+
+  .invalid {
+	color: red;
+  }
+  
+  .invalid:before {
+	position: relative;
+	left: -35px;
+	content: "&#10006;";
+  } 
+
+
+
+
+
+

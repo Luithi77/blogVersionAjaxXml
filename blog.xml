@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<GRANDBLOC>
+    <BLOC>
+        <DEUX>Images2</DEUX>
+        <UN>images1</UN>
+        <TROIS>Image3</TROIS>
+    </BLOC>
+    <BLOC>
+        <UN>3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lorem massa. Nam lobortis, diam vitae venenatis suscipit, erat augue lacinia lorem, id congue est massa in libero. Quisque velit ex, hendrerit et finibus a, malesuada eleifend ex. Curabitur ipsum ligula, rutrum in nulla eu, facilisis elementum odio. Nunc ligula justo, rutrum sit amet mollis eget, auctor id arcu. Nunc laoreet ex et pulvinar varius. Curabitur elit augue, interdum a suscipit at, dignissim sit amet lacus. Morbi ligula tortor, varius eu velit non, vehicula ultrices enim. Suspendisse eu tincidunt velit. Donec placerat ullamcorper nunc eget finibus.</UN>
+        <TROIS>2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lorem massa. Nam lobortis, diam vitae venenatis suscipit, erat augue lacinia lorem, id congue est massa in libero. Quisque velit ex, hendrerit et finibus a, malesuada eleifend ex. Curabitur ipsum ligula, rutrum in nulla eu, facilisis elementum odio. Nunc ligula justo, rutrum sit amet mollis eget, auctor id arcu. Nunc laoreet ex et pulvinar varius. Curabitur elit augue, interdum a suscipit at, dignissim sit amet lacus. Morbi ligula tortor, varius eu velit non, vehicula ultrices enim. Suspendisse eu tincidunt velit. Donec placerat ullamcorper nunc eget finibus.</TROIS>
+        <DEUX>1ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lorem massa. Nam lobortis, diam vitae venenatis suscipit, erat augue lacinia lorem, id congue est massa in libero. Quisque velit ex, hendrerit et finibus a, malesuada eleifend ex. Curabitur ipsum ligula, rutrum in nulla eu, facilisis elementum odio. Nunc ligula justo, rutrum sit amet mollis eget, auctor id arcu. Nunc laoreet ex et pulvinar varius. Curabitur elit augue, interdum a suscipit at, dignissim sit amet lacus. Morbi ligula tortor, varius eu velit non, vehicula ultrices enim. Suspendisse eu tincidunt velit. Donec placerat ullamcorper nunc eget finibus.</DEUX>
+    </BLOC>
+</GRANDBLOC>
+
+
+
+
+
+
+
+
+
+
+
